@@ -134,7 +134,7 @@ void DFS(int Cnt)
 
     for (int i = 0; i < 3; i++)
     {
-        if (Select[i] == true) continue;
+        if (`Select[i] == true) continue;
         Select[i] = true;
         o.push_back(Oper_Type[i]);
         DFS(Cnt + 1);
